@@ -1,0 +1,17 @@
+.reviews-section{background:#0d3025;color:white;position:relative;overflow:hidden}
+.reviews-section:before{content:'5.0';position:absolute;right:-30px;top:-55px;font:800 250px/1 'Manrope',sans-serif;color:rgba(255,255,255,.025);letter-spacing:-20px}
+.reviews-head{position:relative;display:grid;grid-template-columns:1fr auto;gap:70px;align-items:end;margin-bottom:60px}
+.reviews-head h2{margin-bottom:0}
+.google-score{display:flex;align-items:center;gap:20px;padding:22px 26px;border:1px solid rgba(255,255,255,.18);min-width:290px}
+.google-g{width:52px;height:52px;border-radius:50%;background:white;color:#4285f4;display:grid;place-items:center;font:700 28px Arial,sans-serif}
+.google-score strong{font:700 28px 'Manrope',sans-serif}.google-score strong span{font-size:14px;color:rgba(255,255,255,.45)}
+.google-score p{color:#f6c445;letter-spacing:3px;margin:2px 0;font-size:14px}.google-score small{color:rgba(255,255,255,.5);font-size:10px;text-transform:uppercase;letter-spacing:1px}
+.review-grid{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.review-grid article{background:#f3f1e9;color:#12221d;padding:32px;min-height:330px;display:flex;flex-direction:column}
+.review-top{display:flex;justify-content:space-between}.review-top span{color:#d79e13;letter-spacing:2px}.review-top b{color:#4285f4;font:700 18px Arial,sans-serif}
+.review-grid blockquote{font:600 20px/1.55 'Manrope',sans-serif;letter-spacing:-.4px;margin:42px 0 30px}
+.review-grid footer{margin-top:auto;padding:20px 0 0;background:none;color:#12221d;display:flex;flex-direction:column;align-items:flex-start;border-top:1px solid rgba(18,34,29,.15)}
+.review-grid footer strong{font-size:14px}.review-grid footer span{font-size:11px;color:#6a7872;text-transform:uppercase;letter-spacing:1px;margin-top:5px}
+.reviews-cta{position:relative;margin-top:35px;display:flex;align-items:center;justify-content:space-between;gap:30px}.reviews-cta p{color:rgba(255,255,255,.55)}
+@media(max-width:900px){.reviews-head{grid-template-columns:1fr}.google-score{width:max-content}.review-grid{grid-template-columns:1fr}.review-grid article{min-height:280px}}
+@media(max-width:600px){.google-score{min-width:0;width:100%}.reviews-cta{align-items:stretch;flex-direction:column}.reviews-cta .btn{width:100%}.review-grid blockquote{font-size:18px;margin-top:30px}}

@@ -1,5 +1,6 @@
 import './style.css'
 import './seo.css'
+import './testimonials.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'
@@ -84,6 +85,40 @@ document.querySelector('#app').innerHTML = `
         <figure class="g1"><img src="https://transmobilcluj.ro/images/55.jpg" alt="Autoutilitară TransMobil în timpul unei lucrări" loading="lazy"></figure>
         <figure class="g2"><img src="https://transmobilcluj.ro/images/2019/01/07/fundal%20site%20transport.jpg" alt="Transport de mobilă în Cluj" loading="lazy"></figure>
         <div class="rating"><strong>Cluj<br>& împrejurimi</strong><span>Transportăm aproape orice.</span></div>
+      </div>
+    </section>
+
+    <section class="reviews-section section" id="recenzii">
+      <div class="reviews-head">
+        <div>
+          <p class="kicker light">RECENZIILE CLIENȚILOR</p>
+          <h2>Oameni mulțumiți.<br><em>Lucrări fără griji.</em></h2>
+        </div>
+        <div class="google-score">
+          <div class="google-g">G</div>
+          <div><strong>5,0 <span>/ 5</span></strong><p>★★★★★</p><small>Peste 100 de recenzii publice</small></div>
+        </div>
+      </div>
+      <div class="review-grid">
+        <article>
+          <div class="review-top"><span>★★★★★</span><b>G</b></div>
+          <blockquote>„Au venit rapid, au scos toată mobila în aproximativ 30 de minute și au fost foarte eficienți.”</blockquote>
+          <footer><strong>Edgar E.</strong><span>Debarasare mobilă</span></footer>
+        </article>
+        <article>
+          <div class="review-top"><span>★★★★★</span><b>G</b></div>
+          <blockquote>„Implicare, punctualitate și prețul agreat. Nu au lăsat nimic în urmă și m-au ajutat chiar mai mult decât stabilisem.”</blockquote>
+          <footer><strong>Emilian C.</strong><span>Mutare și transport</span></footer>
+        </article>
+        <article>
+          <div class="review-top"><span>★★★★★</span><b>G</b></div>
+          <blockquote>„Foarte atenți cu lucrurile transportate. Și-au făcut treaba până la capăt, fără probleme.”</blockquote>
+          <footer><strong>Vasile N.</strong><span>Transport mobilier</span></footer>
+        </article>
+      </div>
+      <div class="reviews-cta">
+        <p>Recenziile sunt cartea noastră de vizită.</p>
+        <a class="btn btn-lime" href="https://www.google.com/maps/search/?api=1&query=TransMobil+Cluj+0757411306" target="_blank" rel="noreferrer">Vezi toate recenziile pe Google <b>↗</b></a>
       </div>
     </section>
 
