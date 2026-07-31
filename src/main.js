@@ -4,6 +4,7 @@ import './testimonials.css'
 import './marquee.css'
 import './mover.css'
 import './mobile-menu.css'
+import './typography.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'

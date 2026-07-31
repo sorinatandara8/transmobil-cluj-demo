@@ -1,0 +1,18 @@
+:root{--font-display:'Familjen Grotesk',sans-serif;--font-body:'IBM Plex Sans',sans-serif}
+html,body,button,input,textarea,select{font-family:var(--font-body)}
+body{font-weight:400;letter-spacing:-.005em}
+h1,h2,h3,h4,h5,h6,
+.brand,.header-call,.btn,.hero-trust b,.service-num,.service-copy a,
+.steps b,.rating strong,.areas p,.contact-actions>a,.google-score strong,
+.review-grid blockquote,.seo-columns article>span,.faq summary,
+.process-grid b,.process-grid h3,.price-info h3,.montaj-copy h3,
+.moving-divider>p{font-family:var(--font-display)}
+h1,h2{font-weight:600;letter-spacing:-.06em}
+h3{font-weight:600;letter-spacing:-.025em}
+.brand{font-weight:700;letter-spacing:-.035em}
+.brand small,.eyebrow,.kicker,.service-num,.service-copy a,.header-call span{font-family:var(--font-body);font-weight:600;letter-spacing:.18em}
+.hero-copy,.section-head>p,.seo-lead{font-weight:400}
+.btn{font-weight:600;letter-spacing:.005em}
+.service-copy h3{font-weight:600}
+.contact-actions>a{font-weight:600}
+@media(max-width:700px){h1,h2{letter-spacing:-.05em}.header .brand{letter-spacing:-.025em}}
