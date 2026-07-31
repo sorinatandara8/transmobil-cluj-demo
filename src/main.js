@@ -12,7 +12,7 @@ const services = [
 ]
 
 document.querySelector('#app').innerHTML = `
-  <header class="header">
+  <header class="header" style="background:rgba(7,29,22,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)">
     <a class="brand" href="#top" aria-label="TransMobil Cluj — Acasă">
       <span class="brand-mark"><i></i><i></i><i></i></span>
       <span><b>TRANS</b>MOBIL<small>CLUJ-NAPOCA</small></span>
