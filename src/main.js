@@ -135,6 +135,62 @@ document.querySelector('#app').innerHTML = `
           <details><summary>Lucrați și în afara Clujului?<b>+</b></summary><p>Da. Efectuăm transporturi în județ și în țară, cu preț calculat în funcție de distanță și tipul lucrării.</p></details>
         </div>
       </div>
+
+      <div class="seo-extra">
+        <div class="extra-head">
+          <p class="kicker">DE LA PRIMUL TELEFON PÂNĂ LA ULTIMUL OBIECT</p>
+          <h2>O lucrare completă,<br><em>organizată pas cu pas.</em></h2>
+          <p>Fie că este vorba despre o mutare completă sau despre evacuarea câtorva obiecte, stabilim dinainte oamenii, autoutilitara și materialele necesare. Astfel reducem timpul de lucru și evităm surprizele la adresă.</p>
+        </div>
+        <div class="process-grid">
+          <div><b>01</b><h3>Evaluare</h3><p>Ne trimiți fotografii și detaliile lucrării sau stabilim o constatare.</p></div>
+          <div><b>02</b><h3>Planificare</h3><p>Alegem echipa, mașina, ora și traseul potrivite pentru intervenție.</p></div>
+          <div><b>03</b><h3>Demontare</h3><p>Desfacem mobilierul voluminos și pregătim piesele pentru transport.</p></div>
+          <div><b>04</b><h3>Protejare</h3><p>Folosim folie și materiale adecvate pentru obiectele sensibile.</p></div>
+          <div><b>05</b><h3>Transport</h3><p>Încărcăm, fixăm și transportăm bunurile la destinația stabilită.</p></div>
+          <div><b>06</b><h3>Finalizare</h3><p>Descărcăm, poziționăm și remontăm mobilierul, dacă este necesar.</p></div>
+        </div>
+
+        <div class="content-bento">
+          <article class="bento-wide">
+            <p class="kicker light">CE PUTEM TRANSPORTA</p>
+            <h3>De la o cutie până la conținutul unei locuințe.</h3>
+            <div class="tag-list"><span>Mobilă</span><span>Canapele</span><span>Saltele</span><span>Electrocasnice</span><span>Cutii și colete</span><span>Bagaje</span><span>Materiale de construcții</span><span>Obiecte fragile</span><span>Mobilier de birou</span><span>Plante</span><span>Biciclete</span><span>Marfă paletizată</span></div>
+          </article>
+          <article>
+            <p class="kicker">PENTRU LOCUINȚE</p>
+            <h3>Mutări fără stres</h3>
+            <p>Mutăm garsoniere, apartamente și case, inclusiv bunurile personale, mobilierul greu și electrocasnicele.</p>
+          </article>
+          <article>
+            <p class="kicker">PENTRU COMPANII</p>
+            <h3>Relocări organizate</h3>
+            <p>Transportăm birouri, mobilier, arhive, echipamente și marfă pentru firme, magazine și spații comerciale.</p>
+          </article>
+        </div>
+
+        <div class="price-info">
+          <div>
+            <p class="kicker">CUM SE STABILEȘTE PREȚUL</p>
+            <h3>O ofertă adaptată lucrării tale</h3>
+          </div>
+          <div class="price-factors">
+            <p><b>Volumul bunurilor</b><span>Câte obiecte sunt și ce dimensiuni au.</span></p>
+            <p><b>Etajul și liftul</b><span>Distanța de manipulare până la mașină.</span></p>
+            <p><b>Demontarea</b><span>Dacă mobilierul trebuie desfăcut și remontat.</span></p>
+            <p><b>Distanța</b><span>Traseul dintre punctul de ridicare și destinație.</span></p>
+          </div>
+        </div>
+
+        <div class="montaj-copy">
+          <p class="kicker">MONTAJ ȘI DEMONTARE MOBILĂ ÎN CLUJ</p>
+          <div>
+            <h3>Nu transportăm doar mobilierul. Îl lăsăm pregătit pentru folosire.</h3>
+            <p>Oferim servicii de demontare și montaj pentru dulapuri, paturi, comode, mese, birouri și corpuri modulare. Pentru mutări, fiecare componentă este organizată și protejată astfel încât remontarea la noua adresă să fie rapidă și corectă.</p>
+            <p>Putem prelua mobilier nou de la magazine sau depozite din Cluj, îl transportăm la adresă și, în funcție de complexitate, ne ocupăm și de asamblare și poziționare.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="areas" style="justify-content:center">
