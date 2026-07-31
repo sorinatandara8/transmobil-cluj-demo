@@ -86,7 +86,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </section>
 
-    <section class="areas">
+    <section class="areas" style="justify-content:center">
       <p>CLUJ-NAPOCA</p><span>•</span><p>FLOREȘTI</p><span>•</span><p>BACIU</p><span>•</span><p>APAHIDA</p><span>•</span><p>GILĂU</p>
     </section>
 
