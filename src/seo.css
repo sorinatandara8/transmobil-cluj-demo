@@ -1,0 +1,27 @@
+.seo-section{background:#ebe8de;border-top:1px solid rgba(18,34,29,.14)}
+.seo-intro{display:grid;grid-template-columns:1.1fr .9fr;gap:9vw;align-items:end;margin-bottom:70px}
+.seo-intro h2{margin-bottom:0}
+.seo-intro h2 em{color:#4a705f}
+.seo-lead{font-size:17px;line-height:1.8;color:#56655f}
+.seo-lead p:last-child{margin-bottom:0}
+.seo-columns{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(18,34,29,.18);border-bottom:1px solid rgba(18,34,29,.18)}
+.seo-columns article{padding:42px 38px 46px;border-right:1px solid rgba(18,34,29,.18)}
+.seo-columns article:first-child{padding-left:0}
+.seo-columns article:last-child{border-right:0;padding-right:0}
+.seo-columns article>span{font:700 11px 'Manrope',sans-serif;letter-spacing:2px;color:#5f8874}
+.seo-columns h3,.coverage h3{font:700 26px/1.2 'Manrope',sans-serif;letter-spacing:-1px;margin:20px 0}
+.seo-columns p,.coverage p{font-size:15px;line-height:1.75;color:#607069}
+.seo-columns ul{list-style:none;padding:0;margin:25px 0 0}
+.seo-columns li{padding:11px 0;border-top:1px solid rgba(18,34,29,.12);font-size:13px;font-weight:600}
+.seo-columns li:before{content:'✓';color:#5c8a73;margin-right:10px}
+.seo-bottom{display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw;padding-top:75px}
+.coverage h3{font-size:32px}
+.faq details{border-top:1px solid rgba(18,34,29,.2)}
+.faq details:last-child{border-bottom:1px solid rgba(18,34,29,.2)}
+.faq summary{list-style:none;cursor:pointer;padding:21px 0;display:flex;justify-content:space-between;gap:20px;font:700 16px 'Manrope',sans-serif}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary b{color:#5c8a73;font-size:20px;transition:transform .2s}
+.faq details[open] summary b{transform:rotate(45deg)}
+.faq details p{margin:0 40px 22px 0;color:#607069;line-height:1.65;font-size:14px}
+@media(max-width:900px){.seo-intro{grid-template-columns:1fr;gap:25px}.seo-columns{grid-template-columns:1fr}.seo-columns article,.seo-columns article:first-child,.seo-columns article:last-child{padding:35px 0;border-right:0;border-bottom:1px solid rgba(18,34,29,.18)}.seo-columns article:last-child{border-bottom:0}.seo-bottom{grid-template-columns:1fr;gap:65px}}
+@media(max-width:700px){.seo-intro{margin-bottom:45px}.seo-lead{font-size:16px}.seo-columns h3{font-size:24px}.seo-bottom{padding-top:55px}.coverage h3{font-size:27px}}

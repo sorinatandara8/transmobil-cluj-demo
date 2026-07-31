@@ -1,4 +1,5 @@
 import './style.css'
+import './seo.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'
@@ -83,6 +84,56 @@ document.querySelector('#app').innerHTML = `
         <figure class="g1"><img src="https://transmobilcluj.ro/images/55.jpg" alt="Autoutilitară TransMobil în timpul unei lucrări" loading="lazy"></figure>
         <figure class="g2"><img src="https://transmobilcluj.ro/images/2019/01/07/fundal%20site%20transport.jpg" alt="Transport de mobilă în Cluj" loading="lazy"></figure>
         <div class="rating"><strong>Cluj<br>& împrejurimi</strong><span>Transportăm aproape orice.</span></div>
+      </div>
+    </section>
+
+    <section class="seo-section section" id="despre">
+      <div class="seo-intro">
+        <div>
+          <p class="kicker">SERVICII COMPLETE ÎN CLUJ ȘI ÎMPREJURIMI</p>
+          <h2>Transportăm, mutăm<br><em>și eliberăm spații.</em></h2>
+        </div>
+        <div class="seo-lead">
+          <p>TransMobil Cluj oferă servicii complete de <strong>mutări mobilă, transport marfă, debarasări și montaj mobilier în Cluj-Napoca</strong>. Ne ocupăm de întregul proces: evaluare, demontare, protejare, manipulare, încărcare, transport și remontare la destinație.</p>
+          <p>Lucrăm pentru apartamente, garsoniere, case, birouri, sedii de firmă și spații comerciale, cu soluții adaptate volumului, etajului și accesului disponibil.</p>
+        </div>
+      </div>
+
+      <div class="seo-columns">
+        <article>
+          <span>01</span>
+          <h3>Mutări mobilă și relocări</h3>
+          <p>Realizăm mutări locale în Cluj-Napoca și în localitățile apropiate pentru locuințe, firme și spații comerciale. Transportăm mobilier, electrocasnice, cutii, bagaje și obiecte personale.</p>
+          <ul><li>Demontare și remontare mobilier</li><li>Materiale pentru protecția bunurilor</li><li>Încărcare și descărcare atentă</li><li>Poziționare la noua adresă</li></ul>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Debarasare mobilă și moloz</h3>
+          <p>Golim apartamente, case, poduri, pivnițe, curți, garaje, birouri și alte spații. Ridicăm mobilier vechi, saltele, canapele, electrocasnice și resturi rezultate din renovări.</p>
+          <ul><li>Debarasări de la orice etaj</li><li>Demontarea obiectelor voluminoase</li><li>Manipulare și transport incluse</li><li>Eliberarea completă a spațiului</li></ul>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Transport marfă cu autoutilitară</h3>
+          <p>Asigurăm transport pentru mobilă, materiale de construcții, electrocasnice, colete, saci, cutii și bunuri voluminoase, cu autoutilitare de până la 3,5 tone.</p>
+          <ul><li>Transport local și național</li><li>Ridicare de la magazine sau depozite</li><li>Personal pentru manipulare</li><li>Evaluare gratuită a lucrării</li></ul>
+        </article>
+      </div>
+
+      <div class="seo-bottom">
+        <div class="coverage">
+          <p class="kicker">UNDE LUCRĂM</p>
+          <h3>Cluj-Napoca și zona metropolitană</h3>
+          <p>Intervenim în toate cartierele din Cluj-Napoca — Mănăștur, Mărăști, Gheorgheni, Zorilor, Grigorescu, Bună Ziua, Iris, Someșeni și zonele apropiate — precum și în Florești, Baciu, Apahida, Gilău, Feleacu, Dezmir, Turda și alte localități din județ.</p>
+          <p>Pentru transporturile în afara localității, oferta se stabilește în funcție de distanță, volum, manipulare și condițiile de acces.</p>
+        </div>
+        <div class="faq">
+          <p class="kicker">ÎNTREBĂRI FRECVENTE</p>
+          <details open><summary>Cum primesc o estimare de preț?<b>+</b></summary><p>Trimite-ne pe WhatsApp câteva fotografii, adresele, etajele și informația dacă există lift. Pentru lucrările complexe putem face o evaluare la fața locului.</p></details>
+          <details><summary>Asigurați și manipularea bunurilor?<b>+</b></summary><p>Da. Echipa se poate ocupa de demontare, împachetare, coborâre, încărcare, transport, descărcare și remontare.</p></details>
+          <details><summary>Transportați și obiecte grele sau voluminoase?<b>+</b></summary><p>Da, după o evaluare a dimensiunilor, greutății, etajului și accesului până la autoutilitară.</p></details>
+          <details><summary>Lucrați și în afara Clujului?<b>+</b></summary><p>Da. Efectuăm transporturi în județ și în țară, cu preț calculat în funcție de distanță și tipul lucrării.</p></details>
+        </div>
       </div>
     </section>
 
