@@ -1,0 +1,18 @@
+.moving-divider{height:170px;position:relative;overflow:hidden;background:#f3f1e9;border-top:1px solid rgba(18,34,29,.14)}
+.moving-divider>p{position:absolute;left:50%;top:26px;transform:translateX(-50%);margin:0;white-space:nowrap;font:700 10px 'DM Sans',sans-serif;letter-spacing:3px;color:#718078}
+.moving-lane{position:absolute;left:0;right:0;bottom:28px;height:75px;border-bottom:2px solid rgba(18,34,29,.22)}
+.moving-person{position:absolute;left:-120px;bottom:0;width:108px;height:67px;animation:move-the-box 14s linear infinite;will-change:transform}
+.moving-person .head{position:absolute;width:15px;height:15px;border-radius:50%;background:#123a2e;left:24px;top:0}
+.moving-person .body{position:absolute;width:11px;height:31px;background:#123a2e;left:30px;top:16px;transform:rotate(-10deg);border-radius:5px 5px 2px 2px}
+.moving-person .arm{position:absolute;width:31px;height:7px;background:#123a2e;left:36px;top:23px;transform:rotate(15deg);transform-origin:left center;border-radius:5px}
+.moving-person .leg{position:absolute;width:28px;height:7px;background:#123a2e;left:31px;top:43px;transform-origin:left center;border-radius:5px}
+.moving-person .leg-one{transform:rotate(61deg);animation:walk-one .65s ease-in-out infinite alternate}
+.moving-person .leg-two{transform:rotate(112deg);animation:walk-two .65s ease-in-out infinite alternate}
+.moving-box{position:absolute;right:0;bottom:0;width:44px;height:45px;background:#b8f21f;border:2px solid #123a2e;box-shadow:5px 5px 0 rgba(18,58,46,.13)}
+.moving-box:before{content:'';position:absolute;left:50%;top:-2px;width:2px;height:45px;background:rgba(18,58,46,.28)}
+.moving-box i{position:absolute;left:11px;top:10px;width:19px;height:8px;border:2px solid rgba(18,58,46,.55);border-left:0;border-right:0}
+@keyframes move-the-box{from{transform:translate3d(0,0,0)}to{transform:translate3d(calc(100vw + 240px),0,0)}}
+@keyframes walk-one{from{transform:rotate(48deg)}to{transform:rotate(78deg)}}
+@keyframes walk-two{from{transform:rotate(122deg)}to{transform:rotate(96deg)}}
+@media(max-width:700px){.moving-divider{height:145px}.moving-divider>p{top:20px;font-size:8px;letter-spacing:2px}.moving-lane{bottom:23px}.moving-person{animation-duration:9s;transform:scale(.88);transform-origin:bottom left}}
+@media(prefers-reduced-motion:reduce){.moving-person{animation:none;left:50%;transform:translateX(-50%)}.moving-person .leg{animation:none}}

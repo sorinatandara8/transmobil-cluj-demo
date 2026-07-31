@@ -2,6 +2,7 @@ import './style.css'
 import './seo.css'
 import './testimonials.css'
 import './marquee.css'
+import './mover.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'
@@ -228,6 +229,16 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
     </section>
+
+    <div class="moving-divider" aria-hidden="true">
+      <p>MUTĂM TOT. TU NU RIDICI NIMIC.</p>
+      <div class="moving-lane">
+        <div class="moving-person">
+          <span class="head"></span><span class="body"></span><span class="arm"></span><span class="leg leg-one"></span><span class="leg leg-two"></span>
+          <span class="moving-box"><i></i></span>
+        </div>
+      </div>
+    </div>
 
     <section class="areas" aria-label="Zone deservite">
       <div class="areas-track">
