@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
 
   <main id="top">
     <section class="hero">
-      <div class="hero-photo" style="background-image:url('https://transmobilcluj.ro/images/2019/01/07/fundal%20site%204.jpg');background-position:68% center" role="img" aria-label="Echipă de mutări protejând și transportând mobilier"></div>
+      <div class="hero-photo" style="background-image:url('/hero-transmobil-clean.jpg');background-position:65% center" role="img" aria-label="Autoutilitara TransMobil Cluj pregătită pentru o lucrare de debarasare"></div>
       <div class="hero-shade"></div>
       <div class="hero-content">
         <p class="eyebrow"><span></span> Mutări · Transport · Debarasări</p>
