@@ -3,6 +3,7 @@ import './seo.css'
 import './testimonials.css'
 import './marquee.css'
 import './mover.css'
+import './mobile-menu.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'
