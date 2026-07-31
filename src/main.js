@@ -1,6 +1,7 @@
 import './style.css'
 import './seo.css'
 import './testimonials.css'
+import './marquee.css'
 
 const phoneDisplay = '0757 411 306'
 const phone = '40757411306'
@@ -228,8 +229,11 @@ document.querySelector('#app').innerHTML = `
       </div>
     </section>
 
-    <section class="areas" style="justify-content:center">
-      <p>CLUJ-NAPOCA</p><span>•</span><p>FLOREȘTI</p><span>•</span><p>BACIU</p><span>•</span><p>APAHIDA</p><span>•</span><p>GILĂU</p>
+    <section class="areas" aria-label="Zone deservite">
+      <div class="areas-track">
+        <div class="areas-group"><p>CLUJ-NAPOCA</p><span>•</span><p>FLOREȘTI</p><span>•</span><p>BACIU</p><span>•</span><p>APAHIDA</p><span>•</span><p>GILĂU</p><span>•</span><p>FELEACU</p><span>•</span><p>DEZMIR</p><span>•</span><p>TURDA</p><span>•</span></div>
+        <div class="areas-group" aria-hidden="true"><p>CLUJ-NAPOCA</p><span>•</span><p>FLOREȘTI</p><span>•</span><p>BACIU</p><span>•</span><p>APAHIDA</p><span>•</span><p>GILĂU</p><span>•</span><p>FELEACU</p><span>•</span><p>DEZMIR</p><span>•</span><p>TURDA</p><span>•</span></div>
+      </div>
     </section>
 
     <section class="contact section" id="contact">
