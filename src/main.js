@@ -6,7 +6,7 @@ const waMessage = encodeURIComponent('Bună ziua! Doresc o estimare pentru un se
 
 const services = [
   { n: '01', title: 'Mutări & relocări', text: 'Locuințe, birouri și sedii mutate complet, fără stres și fără improvizații.', img: 'https://transmobilcluj.ro/images/fundal-site-2.jpg' },
-  { n: '02', title: 'Debarasări complete', text: 'Golim apartamente, case, pivnițe sau spații comerciale și lăsăm curat în urmă.', img: 'https://transmobilcluj.ro/images/fundal-site-debarasare.jpg' },
+  { n: '02', title: 'Debarasări complete', text: 'Golim apartamente, case, pivnițe sau spații comerciale și lăsăm curat în urmă.', img: '/debarasari-card.jpg' },
   { n: '03', title: 'Transport marfă', text: 'Mobilă, electrocasnice, materiale și obiecte voluminoase, local sau în țară.', img: 'https://transmobilcluj.ro/images/fundal-site-transport.jpg' },
   { n: '04', title: 'Montaj mobilier', text: 'Demontare, transport și remontare atentă pentru mobilier IKEA, JYSK și nu numai.', img: 'https://transmobilcluj.ro/images/fundal-site-montaj-mobila.jpg' }
 ]
